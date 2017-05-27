@@ -1,4 +1,4 @@
-const what3words = require('../../lib/');
+const what3words = require('../../');
 const validate = require('./validate');
 
 /* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
