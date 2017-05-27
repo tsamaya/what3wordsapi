@@ -1,4 +1,4 @@
-const what3words = require('../../lib/');
+const what3words = require('../../');
 /* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 const expect = require('chai').expect;
 
