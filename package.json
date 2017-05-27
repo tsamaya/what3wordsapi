@@ -1,6 +1,6 @@
 {
   "name": "what3wordsapi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "what3words API wrapper",
   "main": "index.js",
   "scripts": {
