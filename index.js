@@ -1,15 +1,11 @@
-const languages = require('./lib/what3words/languages');
-const reverse = require('./lib/what3words/reverse');
-const forward = require('./lib/what3words/forward');
-const errors = require('./lib/what3words/forward');
-
+const what3words = require('what3words-api-nodejs-client');
 /**
  * what3words API wrapper
  * @type {Object}
  */
 module.exports = {
-  languages,
-  reverse,
-  forward,
-  errors,
+  languages: what3words.languages,
+  reverse: what3words.reverse,
+  forward: what3words.forward,
+  errors: what3words.errors,
 };
